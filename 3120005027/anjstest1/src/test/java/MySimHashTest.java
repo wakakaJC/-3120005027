@@ -14,7 +14,7 @@ public class MySimHashTest {
                 "你知不知道我受什么样的欺负？就因为我雷系刮痧，我打若陀，我打不动！这什么破属性破属性破属性啊？！\n" +
                 "我就是要一步一步一步、一步一步一步地追到最高。我要去须弥！我不要再让人家欺负我。我受不了了，我不要让别人" +
                 "笑话你，我要做璃月雷神！我要做一个，做一个没人看不起，3.0激化大C璃月雷神！", 64);
-        System.out.println(hashTest1.hammingDistance(hashTest2) );
+
         System.out.println(hashTest1.getSemblance(hashTest2));
     }
 }

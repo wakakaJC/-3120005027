@@ -12,7 +12,7 @@ public class MainTest {
         MySimHash hash1 = new MySimHash(text1, 64);
 
         double similarity = hash0.getSemblance(hash1);
-        TxtIOUtils.writeTxt(similarity, "ans\\ans.txt");
+        TxtIOUtils.writeTxt(similarity, "ans\\ansTest.txt");
     }
 
     @Test
@@ -25,7 +25,7 @@ public class MainTest {
         MySimHash hash2 = new MySimHash(text2, 64);
 
         double similarity = hash0.getSemblance(hash2);
-        TxtIOUtils.writeTxt(similarity, "ans\\ans.txt");
+        TxtIOUtils.writeTxt(similarity, "ans\\ansTest.txt");
     }
 
     @Test
@@ -38,7 +38,7 @@ public class MainTest {
         MySimHash hash3 = new MySimHash(text3, 64);
 
         double similarity = hash0.getSemblance(hash3);
-        TxtIOUtils.writeTxt(similarity, "ans\\ans.txt");
+        TxtIOUtils.writeTxt(similarity, "ans\\ansTest.txt");
     }
 
     @Test
@@ -51,7 +51,7 @@ public class MainTest {
         MySimHash hash4 = new MySimHash(text4, 64);
 
         double similarity = hash0.getSemblance(hash4);
-        TxtIOUtils.writeTxt(similarity, "ans\\ans.txt");
+        TxtIOUtils.writeTxt(similarity, "ans\\ansTest.txt");
     }
 
    @Test
@@ -64,7 +64,7 @@ public class MainTest {
         MySimHash hash5 = new MySimHash(text5, 64);
 
         double similarity = hash0.getSemblance(hash5);
-        TxtIOUtils.writeTxt(similarity, "ans\\ans.txt");
+        TxtIOUtils.writeTxt(similarity, "ans\\ansTest.txt");
     }
 
 }
